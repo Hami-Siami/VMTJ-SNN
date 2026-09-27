@@ -1,0 +1,13 @@
+dataset,mode,accuracy,mean_spikes,std_spikes
+MNIST,lif,97.80,9326,3581
+MNIST,tonic_burst,97.59,5177,568
+MNIST,phasic_burst,97.59,3449,147
+Fashion-MNIST,lif,85.21,42861,12948
+Fashion-MNIST,tonic_burst,85.73,13707,3708
+Fashion-MNIST,phasic_burst,86.76,4916,647
+Breast Cancer,lif,97.39,765,423
+Breast Cancer,tonic_burst,97.39,444,81
+Breast Cancer,phasic_burst,97.39,328,16
+IRIS,lif,96.77,2123,332
+IRIS,tonic_burst,96.77,750,56
+IRIS,phasic_burst,96.77,431,8
