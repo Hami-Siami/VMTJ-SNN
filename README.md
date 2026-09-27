@@ -20,7 +20,7 @@ The experiments use Adaptive Exponential Integrate-and-Fire (AdEx) neurons as co
 │   ├── engine.py              # training and evaluation loops
 │   └── utils.py               # reproducibility and I/O helpers
 └── results/
-    └── reported_table1.csv    # reported accuracy/spike-count values
+    └── reported_table.csv    # reported accuracy/spike-count values
 ```
 
 ## Installation
@@ -66,4 +66,4 @@ python run_all.py
 
 MNIST and Fashion-MNIST use a 3,000-neuron hidden layer. The tabular Breast Cancer and IRIS experiments use a 256-neuron hidden layer, following the configurations used to generate the reported results. All experiments use 40 discrete time steps and the fast-sigmoid surrogate gradient with slope 40.
 
-The reference values reported in the manuscript are provided in `results/reported_table1.csv`. Training is seeded for reproducibility; small numerical differences can still occur across PyTorch/CUDA versions and hardware.
+The reference values reported in the manuscript are provided in `results/reported_table.csv`. Training is seeded for reproducibility; small numerical differences can still occur across PyTorch/CUDA versions and hardware.
